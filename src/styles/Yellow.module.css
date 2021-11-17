@@ -3,6 +3,7 @@
     background-color: #ffde40;
     z-index: 1;
     padding-top: 142px;
+    padding-bottom: 21rem;
 }
 
 .Wrapper {
@@ -27,4 +28,90 @@
     width: 548px;
     font-weight: 900;
     line-height: 1.1;
+}
+
+.Download {
+    height: 92px;
+    padding-top: 34px;
+}
+
+.Download button {
+    height: 80px;
+    width: 362px;
+    font-family: YandexSansTextRegular;
+    border-radius: 24px;
+    font-size: 24px;
+    padding-top: .25em;
+}
+
+.SoFarOnly {
+    display: flex;
+    height: 230px;
+    font-size: 64px;
+    color: white;
+    margin-top: 70px;
+    padding-left: 2.5rem;
+}
+
+.SoFarOnlyBG {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/sofaronly.svg');
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.SoFarOnly p {
+    font-weight: 600;
+    padding-top: .5em;
+    line-height: 1.14;
+    margin-left: -2.5rem;
+}
+
+.HowToRent {
+    padding-top: 128px;
+}
+
+.HowToRent h1 {
+    font-size: 64px;
+    font-family: YandexSansTextBold;
+}
+
+.AppUse {
+    display: flex;
+	justify-content: space-between;
+    margin-top: 96px;
+}
+
+.PushButton p {
+    font-family: YandexSansTextBold;
+	font-size: 36px;
+    font-weight: 600;
+    line-height: 1.1;
+	margin-top: 32px;
+	max-width: 455px;
+}
+
+.AppUseRight {
+	top: 171px;
+	left: calc(50% + 105px);
+	border-radius: 56px;
+}
+
+.AngularArrow {
+    margin-top: -305px;
+    margin-left: 389px;
+}
+
+.ReadyGo {
+    height: 179px;
+    width: 100%;
+    font-size: 40px;
+    font-family: YandexSansTextBold;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 36px;
+    padding: 41px 64px 50px;
+    border-radius: 56px;
 }
