@@ -3,7 +3,7 @@
     background-color: #ffde40;
     z-index: 1;
     padding-top: 142px;
-    padding-bottom: 21rem;
+    padding-bottom: 16rem;
 }
 
 .Wrapper {
@@ -114,4 +114,82 @@
     margin-top: 36px;
     padding: 41px 64px 50px;
     border-radius: 56px;
+}
+.Swiper {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 128px;
+    border-radius: 32px;
+}
+
+.Swiper video {
+    height: 414px;
+    width: 734px;
+    border-radius: 32px;
+    right: 0;
+    margin-right: -93px;
+}
+
+.RideGently {
+    min-height: 50vh;
+    background-color: white;
+    padding: 56px 0 264px 93px;
+    width: 920px;
+    border-radius: 56px;
+    margin-top: -44px;
+    margin-left: -93px;
+}
+
+.RideGently {
+    font-size: 56px;
+    margin-bottom: 72px;
+    font-family: YandexSansTextBold;
+    font-weight: 600;
+}
+
+.Row {
+	display: flex;
+	margin-bottom: 96px;
+}
+
+.RowItem {
+	max-width: 362px;
+	margin-right: 93px;
+}
+
+.RowItem h4 {
+    font-size: 36px;
+    margin-bottom: 16px;
+    margin-top: 0;
+    font-family: YandexSansTextBold;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.RowItem p {
+    font-size: 21px;
+    font-family: YandexSansTextBold;
+    font-weight: 300;
+}
+
+.LifeEnshurance {
+    background: #00CA50;
+    width: 475px;
+    padding: 83px;
+    border-radius: 56px;
+    margin-top: -23.5rem;
+    margin-left: 23.5rem;
+    line-height: 1.4;
+}
+
+.LifeEnshurance p {
+    font-family: YandexSansTextBold;
+    font-size: 30px;
+    color: #fff;    
+}
+
+.LifeEnshurance a {
+    font-family: YandexSansTextBold;
+    color: white;
+    font-weight: 400;
 }

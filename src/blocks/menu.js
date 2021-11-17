@@ -1,5 +1,5 @@
 import style from '../styles/Menu.module.css'
-import {Redirect, Route, NavLink} from "react-router-dom";
+
 
 import Logo from '../images/orig.svg'
 
