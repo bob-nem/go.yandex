@@ -1,0 +1,63 @@
+.Container {
+    background-color: #202020;
+    min-height: 1846px;
+    width: 100%;
+    background: #21201f;
+    border-radius: 56px 56px 0 0;
+    background-image: url('../images/black-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 1846px;
+    background-position-x: center;
+    background-position-y: top;
+    position: relative;
+    margin-top: -4.5rem;
+}
+
+.Wrapper {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 64px;
+    margin-top: 35px;
+    font-family: YandexSansTextBold;
+    color: white;
+}
+
+h2 a {
+    color: white;
+    font-family: YandexSansTextBold;
+    text-decoration:none
+}
+
+.Description {
+    margin-top: -26px;
+    width: 650px;
+    color: white;
+    font-size: 30px;
+    font-family: YandexSansTextBold;
+}
+
+.Description a {
+    color: white;
+    font-family: YandexSansTextBold;
+}
+
+.Description2 {
+    font-size: 31px;
+    line-height: 130%;
+    color: #21201f;
+    width: 792px;
+    margin-top: 204px;
+    font-family: YandexSansTextMedium;
+}
+
+.Chuvak {
+    width: 304px;
+    height: 466px;
+    right: calc(50% - 710px);
+    display: block;
+    position: absolute;
+    margin-top: -30.6rem;
+}

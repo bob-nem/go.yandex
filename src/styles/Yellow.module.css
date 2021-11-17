@@ -183,13 +183,13 @@
 }
 
 .LifeEnshurance p {
-    font-family: YandexSansTextBold;
+    font-family: YandexSansTextMedium;
     font-size: 30px;
     color: #fff;    
 }
 
 .LifeEnshurance a {
-    font-family: YandexSansTextBold;
+    font-family: YandexSansTextMedium;
     color: white;
     font-weight: 400;
 }

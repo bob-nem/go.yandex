@@ -2,6 +2,7 @@
 
 import Menu from './blocks/menu'
 import Yellow from './blocks/yellow'
+import Black from './blocks/black'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
       <main>
         <Yellow />
+        <Black />
       </main>
       <footer>
 

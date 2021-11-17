@@ -8,6 +8,11 @@
   src: local('YandexSansTextBold'), url(./fonts/YandexSansText-Bold.woff2) format('woff2');
 }
 
+@font-face {
+  font-family: 'YandexSansTextMedium';
+  src: local('YandexSansTextMedium'), url(./fonts/YandexSansText-Medium.woff2) format('woff2');
+}
+
 body, p, li, a, h1 {
   margin: 0;
   font-family: YandexSansTextRegular, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
