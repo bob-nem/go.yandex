@@ -1,0 +1,30 @@
+.Container {    
+    min-height: 100vh;
+    background-color: #ffde40;
+    z-index: 1;
+    padding-top: 142px;
+}
+
+.Wrapper {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.Title {
+    display: flex;
+    align-items: flex-end;
+    height: 597px;
+    background-image: url('../images/orig.png');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat; 
+}
+
+.Title p {
+    color: rgba(33, 32, 31, 1);
+    font-family: YandexSansTextBold;
+    font-size: 36px;
+    width: 548px;
+    font-weight: 900;
+    line-height: 1.1;
+}
