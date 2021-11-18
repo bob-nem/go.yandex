@@ -41,6 +41,10 @@ Nav {
     padding-top: 4px;
 }
 
+.Nav a {
+    text-decoration: none;
+}
+
 .Right {
     width: 176.3px;
     right: 0;

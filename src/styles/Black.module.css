@@ -1,7 +1,7 @@
 .Container {
     background-color: #202020;
-    min-height: 1846px;
     width: 100%;
+    height: 1737px;
     background: #21201f;
     border-radius: 56px 56px 0 0;
     background-image: url('../images/black-bg.jpg');
@@ -18,21 +18,21 @@
     margin: 0 auto;
 }
 
-h2 {
+.Container h2 {
     font-size: 64px;
-    margin-top: 35px;
+    margin-top: 34px;
     font-family: YandexSansTextBold;
     color: white;
+    margin-bottom: 27px;
 }
 
-h2 a {
+.Container h2 a {
     color: white;
     font-family: YandexSansTextBold;
     text-decoration:none
 }
 
 .Description {
-    margin-top: -26px;
     width: 650px;
     color: white;
     font-size: 30px;

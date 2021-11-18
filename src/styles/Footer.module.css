@@ -1,0 +1,13 @@
+.Container {
+    display: flex;
+    max-width: 920px;
+    padding: 56px 0;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 16px;
+    color: #21201f;
+}
+
+.Container p, .Container a {
+    font-family: YandexSansTextBold;
+}

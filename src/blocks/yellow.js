@@ -17,7 +17,7 @@ export default function yellow() {
                         <p style={{ fontFamily: "YandexSansTextBold" }}>Пока только в <a href="https://go.yandex/ru_ru/lp/rides/scooter" style={{ fontFamily: "YandexSansTextBold", color: "white" }}>Москве</a><br /> и <a href="https://go.yandex/ru_ru/lp/rides/scooter/krasnodar" style={{ fontFamily: "YandexSansTextBold", color: "white" }}>Краснодаре</a></p>
                     </div>
                 </div>
-                <div className={style.HowToRent}>
+                <div className={style.HowToRent} id="rent">
                     <h1>Как арендовать самокат</h1>
                     <div className={style.AppUse}>
                         <div className={style.AppUseLeft}>
@@ -43,7 +43,7 @@ export default function yellow() {
                     <div className={style.Swiper}>
                         <video src="https://streaming.video.yandex.ru/get/yndx-video/m-43474-17a7be21d43-cfb3f6c623bf8b7b/720p.mp4" controls={true}></video>
                     </div>
-                    <div className={style.RideGently}>
+                    <div className={style.RideGently} id="gentle">
                         <h3>Катайтесь нежно</h3>
                         <div className={style.Row}>
                             <div className={style.RowItem}>

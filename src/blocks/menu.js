@@ -1,5 +1,5 @@
 import style from '../styles/Menu.module.css'
-
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import Logo from '../images/orig.svg'
 
@@ -8,13 +8,13 @@ export default function menu () {
         <div className={style.Container}>
             <div className={style.Menu}>
                 <div className={style.Logo}>
-                    <img src={Logo} width='158px' height='45px' alt="yandex go logotype"/>
+                    <a href="https://go.yandex/"><img src={Logo} width='158px' height='45px' alt="yandex go logotype"/></a>
                 </div>
                 <nav className={style.Nav}>
                     <ul>
-                        <li>Как арендовать самокат</li>
-                        <li>Катайтесь нежно</li>
-                        <li>Где самокаты?</li>
+                        <AnchorLink href="#rent"><li>Как арендовать самокат</li></AnchorLink>
+                        <AnchorLink href="#gentle"><li>Катайтесь нежно</li></AnchorLink>
+                        <AnchorLink href="#where"><li>Где самокаты?</li></AnchorLink>
                     </ul>
                 </nav>
                 <div className={style.Right}>

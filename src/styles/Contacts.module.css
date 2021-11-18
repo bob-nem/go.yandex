@@ -1,0 +1,70 @@
+.Container {
+    background-color: white;
+}
+
+.Wrapper {
+    max-width: 920px;
+    margin: 0 auto;
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 75px;
+    position: relative;
+    z-index: 1;
+}
+
+.Wrapper h2 {
+    font-size: 64px;
+    margin-bottom: 32px;
+    max-width: 455px;
+    font-family: YandexSansTextBold;
+}
+
+.Wrapper p {
+    font-size: 31px;
+    line-height: 130%;
+    max-width: 505px;
+    padding-bottom: 48px;
+    font-family: YandexSansTextBold;
+}
+
+.SedndForm input[type=tel] {
+    height: 45px;
+    padding-left: 17px;
+    outline: none;
+    width: 176px;
+    border: 1px solid #ccc;
+    font-size: 1.25em;
+}
+
+.SedndForm input[type=tel]:focus {
+    outline: none;
+    box-shadow: inset 0 0 0 1px #ffdb4d;
+    border: 1px solid #ffdb4d;
+}
+
+.SedndForm input[type=tel]::placeholder {
+    color: #999;    
+}
+
+.SedndForm button {
+    cursor: pointer;
+    height: 49px;
+    width: 131px;
+    min-width: 122.5px;
+    border-radius: 4px;
+    background-color: #ffdf39;
+    padding: 0 15px;
+    color: #252525;
+    font-size: 18px;
+    font-family: YandexSansTextRegular;
+    margin-left: 13px;
+    margin-top: -2px;
+}
+
+.FooterI {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: -25.9rem;
+    position: relative;
+    z-index: 0;
+}
